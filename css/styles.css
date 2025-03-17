@@ -388,7 +388,12 @@ nav .nav-link-curent {
 }
 
 .team-member {
-    background-color: #fff;
+    fill: #f4f4fd;
+}
+
+.team-member:hover .social-link,
+.team-member .social-link:focus {
+    background-color: #404bbf;
 }
 
 /* Footer */
