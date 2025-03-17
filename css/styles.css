@@ -283,6 +283,10 @@ nav .nav-link-curent {
     padding: 32px 0;
 }
 
+.our-team-card-text .text-features {
+    margin-bottom: 8px;
+}
+
 .team-member {
     text-align: center;
     flex-basis: calc((100% - 72px) / 4);
