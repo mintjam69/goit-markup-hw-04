@@ -30,6 +30,17 @@ img {
 }
 /* /Reset */
 
+/*========= Root ===========*/
+
+:root {
+    --color-blue: #4d5ae5;
+    --color-dark-blue: #404bbf;
+    --color-green: #31d0aa;
+    --color-white: #f4f4fd;
+}
+
+/*========= /Root ===========*/
+
 /* Global Styles */
 
 body {
@@ -324,8 +335,8 @@ nav .nav-link-curent {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.member-card:hover .social-link,
-.member-card .social-link:focus {
+.social-link:hover,
+.social-link:focus {
     background-color: #404bbf;
 }
 
@@ -400,10 +411,7 @@ nav .nav-link-curent {
     fill: #f4f4fd;
 }
 
-.team-member:hover .social-link,
-.team-member .social-link:focus {
-    background-color: #404bbf;
-}
+
 
 /* Footer */
 
